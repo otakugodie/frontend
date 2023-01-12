@@ -1,0 +1,29 @@
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 157px;
+    height: 110px;
+    background: red;
+    border-radius: 30px;
+    position: relative;
+}
+
+.logo::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 42px solid white;
+    left: 64px;
+    bottom: 31px;
+
+
+}
